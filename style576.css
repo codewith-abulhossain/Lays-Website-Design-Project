@@ -1,0 +1,33 @@
+@media (max-width: 575.98px) {
+  html {
+    font-size: 35%;
+  }
+  /* header style */
+  .logo svg {
+    width: 5rem;
+    height: 5rem;
+  }
+  nav ul {
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+  }
+  .signup {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    align-items: center;
+  }
+  #menulist {
+    transition: all 0.5s;
+  }
+  /* hero style */
+}
