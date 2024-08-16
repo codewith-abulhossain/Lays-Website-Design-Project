@@ -2,6 +2,9 @@
   html {
     font-size: 35%;
   }
+  img {
+    max-width: 100%;
+  }
   /* header style */
   .logo svg {
     width: 5rem;
@@ -30,4 +33,226 @@
     transition: all 0.5s;
   }
   /* hero style */
+  /* hero style  */
+  .hero-bg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(./assets/images/photo/hero-photo-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .hero-bg::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      #02b5ea 0%,
+      rgba(2, 181, 234, 0.15) 100%
+    );
+    z-index: -1;
+  }
+
+  .hero-container-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5rem;
+    /* padding: 10rem 4rem; */
+  }
+  .hero-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-images img {
+    margin-top: -6rem;
+    margin-left: 3.5rem;
+  }
+  .hero-title {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero-title h2 {
+    margin-top: 6rem;
+    color: #182327;
+    font-family: var(--secondary-font);
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.6rem;
+  }
+
+  .hero-pra {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-pra p {
+    margin-top: 2rem;
+    color: #182327;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem;
+  }
+  .hero-btn button {
+    margin-top: 4rem;
+    width: 15rem;
+    height: 6rem;
+    border-radius: 8px;
+    background: #182327;
+    color: #fff;
+    margin-left: 8rem;
+  }
+
+  /* Best chips style */
+  .bestChips-container {
+    padding: 4rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  /* .bestChips-container::before {
+    content: "";
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 3rem;
+    right: 20rem;
+    background-image: url(./assets/images/photo/lays.png);
+  } */
+
+  .right-top {
+    width: 20rem;
+    height: 5rem;
+    position: absolute;
+    top: 12rem;
+    right: 3rem;
+  }
+  .right-top img {
+    width: 14rem;
+  }
+
+  .lays-title {
+    width: 100%;
+  }
+  .lays-title h2 {
+    color: #182327;
+    font-family: var(--primary-font);
+    font-size: 5.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.5rem;
+    margin-bottom: 8rem;
+    text-align: left;
+  }
+  .lays-image img {
+    width: 100%;
+  }
+  .lays-text {
+    margin-top: 5rem;
+  }
+  .lays-text-title h2 {
+    color: #182327;
+    font-family: var(--primary-font);
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+  }
+  .price {
+    margin-top: 1.5rem;
+    color: #5d696d;
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+  }
+  .price2 {
+    margin-top: 1rem;
+    color: #182327;
+    font-family: var(--secondary-font);
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6rem;
+  }
+  .lays-pra p {
+    width: 100%;
+    margin-top: 2rem;
+    color: #5d696d;
+    font-family: var(--secondary-font);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+  }
+  .lays-btn button {
+    width: 16rem;
+    height: 7rem;
+    margin-top: 3rem;
+    border-radius: 1.2rem;
+    color: #fff;
+    background: #182327;
+  }
+  .lays-btn a {
+    color: #182327;
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-left: 1rem;
+  }
+  /* product gallery style */
+  .gallery-container {
+    padding: 0 4rem;
+  }
+  .product-gallery-title {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .product-gallery-title h2 {
+    color: #182327;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: var(--secondary-font);
+    font-size: 5.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+  .product-gallery-title p {
+    color: #5d696d;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: var(--primary-font);
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+    row-gap: 8rem;
+  }
 }
