@@ -225,4 +225,111 @@
     line-height: 2rem;
     margin-left: 1rem;
   }
+  .popular-product-container {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 12rem;
+  }
+  .popular-product1 h2 {
+    display: block;
+    margin-bottom: 6.5rem;
+    color: #182327;
+    font-family: var(--secondary-font);
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.6rem;
+  }
+  .popular-product2,
+  .popular-product2 h2 {
+    display: none;
+  }
+  .popular-product1 .dot {
+    margin: 3rem auto;
+    display: flex;
+    text-align: center;
+    display: block;
+    width: 96px;
+    height: 4px;
+  }
+
+  /* customer review */
+  #review {
+    width: 100%;
+    height: auto;
+  }
+  .customer-review-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5rem;
+    padding: 15rem 4rem;
+  }
+  .Customer-review h2 {
+    color: #182327;
+    margin-bottom: 3rem;
+    font-family: var(--secondary-font);
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.6rem;
+  }
+  .Customer-review p {
+    color: #182327;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 3.6rem;
+  }
+  .Customer-review > .underline {
+    width: 100%;
+    height: 0.2rem;
+    border-radius: 1px;
+    background: #33d1ff;
+    margin-bottom: 1rem;
+  }
+
+  .Customer-review h3 {
+    color: #182327;
+    font-family: var(--primary-font);
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
+  .Customer-review > .arrows {
+    display: block;
+    width: 124px;
+    height: 48px;
+    margin-top: 5rem;
+  }
+  #store {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: #ffd36a;
+  }
+  .store-container-wrapper {
+    padding: 0 4rem;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(./assets/images/photo/store-bg.png);
+    z-index: 1;
+  }
+  .store-content {
+    width: 100%;
+  }
+  .store-content h2 {
+    padding-top: 6rem;
+  }
+
+  .store-btn {
+    width: 16rem;
+    height: 6rem;
+    margin: 5rem auto;
+  }
 }
