@@ -332,4 +332,29 @@
     height: 6rem;
     margin: 5rem auto;
   }
+  /* footer section */
+  footer {
+    width: 100%;
+    height: auto;
+    background: #fff7e3;
+    margin: 0 auto;
+    padding: 0 4rem;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 7rem;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: start;
+  }
+  .footer-content .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
